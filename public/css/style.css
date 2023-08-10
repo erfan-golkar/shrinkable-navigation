@@ -24,8 +24,23 @@ body {
   color: var(--main-txt-clr);
 }
 
+/* other styles */
+
+/* topnav */
+nav {
+  width: 90%;
+  height: 180px;
+  margin: 12px auto;
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: var(--test);
+}
+
 /* logo */
 nav a.logo img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
