@@ -9,6 +9,7 @@
   --shadow-med: 4px 4px 12px 2px darkgray;
   --shadow-high: 4px 4px 12px 2px gray;
   
+  --btn-cold: #0000802c;
   --btn-success: #27a727;
 }
 
@@ -36,11 +37,43 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: var(--test);
+  box-shadow: var(--shadow-light);
+}
+
+/* navbar */
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--main-txt-clr);
+  display: block;
+}
+
+nav .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav .navbar > li > a {
+  font-size: 24px;
+  padding: 12px 25px;
+  margin: 2px;
+  border-radius: 6px;
+}
+
+nav .navbar > li > a:hover {
+  transition: 0.16s;
+  background-color: var(--btn-cold);
+}
+
+nav .navbar > li:first-child a {
+  background-color: var(--btn-cold);
 }
 
 /* logo */
-nav a.logo img {
+nav .logo img {
   width: 80px;
   height: 80px;
 }
