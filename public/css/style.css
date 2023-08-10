@@ -42,12 +42,12 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 8px;
+  transition: 0.4s;
 }
 
 /* navbar */
 nav a {
   text-decoration: none;
-  font-size: 18px;
   color: var(--main-txt-clr);
   display: block;
 }
@@ -65,10 +65,10 @@ nav .navbar > li > a {
   padding: 12px 25px;
   margin: 2px;
   border-radius: 6px;
+  transition: 0.16s;
 }
 
 nav .navbar > li > a:hover {
-  transition: 0.16s;
   background-color: var(--btn-cold);
 }
 
@@ -80,6 +80,7 @@ nav .navbar > li:first-child a {
 nav .logo img {
   width: 120px;
   height: 120px;
+  transition: 0.4s;
 }
 
 /* intro */
@@ -108,4 +109,9 @@ article {
   text-align: justify;
   border-radius: 6px;
   box-shadow: var(--shadow-ultralight);
+}
+
+/* register icon */
+#register {
+  transition: 0.4s;
 }
