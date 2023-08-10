@@ -1,11 +1,12 @@
 window.onscroll = function() {
-  let i;
-  let bodyTag = document.body;
-  let wholeDoc = document.documentElement;
-  let logo = document.getElementById("logo");
-  let menuLinks = document.getElementsByClassName("menu-links");
-  let registerIcon = document.getElementById("register");
-  let navTag = document.getElementsByTagName("nav")[0];
+  let i, bodyTag, wholeDoc, logo, menuLinks, registerIcon, navTag;
+  i;
+  bodyTag = document.body;
+  wholeDoc = document.documentElement;
+  logo = document.getElementById("logo");
+  menuLinks = document.getElementsByClassName("menu-links");
+  registerIcon = document.getElementById("register");
+  navTag = document.getElementsByTagName("nav")[0];
 
   if (bodyTag.scrollTop > 350 || wholeDoc.scrollTop > 350) {
 
