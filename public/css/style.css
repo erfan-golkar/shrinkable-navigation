@@ -5,6 +5,7 @@
   --main-bg: #e4eaee;
   --main-txt-clr: #111;
   
+  --shadow-ultralight: 2px 2px 8px 1px lightgray;
   --shadow-light: 4px 4px 12px 2px lightgray;
   --shadow-med: 4px 4px 12px 2px darkgray;
   --shadow-high: 4px 4px 12px 2px gray;
@@ -76,4 +77,32 @@ nav .navbar > li:first-child a {
 nav .logo img {
   width: 120px;
   height: 120px;
+}
+
+/* intro */
+.intro {
+  background-color: whitesmoke;
+  display: block;
+  margin: 25px 130px;
+  padding: 12px 25px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-ultralight);
+}
+
+.intro .tip {
+  background-color: #ffff0073;
+  padding: 6px;
+}
+
+.intro p:last-child {
+  text-align: justify;
+}
+
+article {
+  background-color: whitesmoke;
+  margin: 18px;
+  padding: 12px 30px;
+  text-align: justify;
+  border-radius: 6px;
+  box-shadow: var(--shadow-ultralight);
 }
