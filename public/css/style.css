@@ -23,3 +23,9 @@ body {
   background-color: var(--main-bg);
   color: var(--main-txt-clr);
 }
+
+/* logo */
+nav a.logo img {
+  width: 50px;
+  height: 50px;
+}
